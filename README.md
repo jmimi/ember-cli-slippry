@@ -2,7 +2,7 @@
 
 `ember-cli-slippry` is a component that is for showing images.
 
-It wraps [http://slippry.com/](slippry image slider)
+It wraps [slippry image slider](http://slippry.com/)
 
 **NOTE** : This component is an experience for easing my development process of another project.
 
