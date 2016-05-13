@@ -14,6 +14,9 @@ module.exports = {
   // }
 
   afterInstall: function(options){
-    return _this.addPackagesToProject([{name: 'ember-cli-sass', target: 'latest'}]);
+    var self = this;
+    return this.addBowerPackagesToProject([{name: "slippry", target: "^1.3.1"}]).then(function(){
+      return self.addPackagesToProject([{name: 'ember-cli-sass', target: 'latest'}]);
+    });
   }
 };

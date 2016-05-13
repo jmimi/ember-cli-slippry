@@ -15,5 +15,7 @@ module.exports = {
     app.import(app.bowerDirectory + "/slippry/images/sy-loader.gif", {
       destDir: "images"
     });
+
+    
   }
 };
