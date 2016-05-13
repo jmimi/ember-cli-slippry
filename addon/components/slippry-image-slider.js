@@ -46,10 +46,5 @@ export default Ember.Component.extend({
     let pagerFromBottom = this.get('pagerFromBottom') || "30px";
     Ember.$(pagerSelector).css('position', 'relative');
     Ember.$(pagerSelector).css('top', '-' + pagerFromBottom);
-  },
-
-  willDestroyElement() {
-    Ember.$(this.get('slippryElSelector')).destroySlider();
-    this._super(...arguments);
   }
 });
