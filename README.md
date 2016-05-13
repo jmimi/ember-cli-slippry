@@ -19,6 +19,9 @@ ember install ember-cli-slippry
 ```bash
 npm install ember-cli-slippry --save
 ```
+
+**Add `@import 'ember-cli-slippry';` to `app.scss`**
+
 ### slippry-image-slider
 
 ```hbs
