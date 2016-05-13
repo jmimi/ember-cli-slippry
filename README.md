@@ -1,6 +1,54 @@
-# Ember-cli-slippry
+# ember-cli-slippry
 
-This README outlines the details of collaborating on this Ember addon.
+`ember-cli-slippry` is a component that is for showing images.
+
+It wraps [http://slippry.com/](slippry image slider)
+
+**NOTE** : This component is an experience for easing my development process of another project.
+
+### Installation
+
+From inside your ember-cli project, run the following:
+
+```bash
+ember install ember-cli-slippry
+```
+
+#### Installation without ember-cli
+
+```bash
+npm install ember-cli-slippry --save
+```
+### slippry-image-slider
+
+```hbs
+{{slippry-image-slider images=images height="600px" pagerFromBottom="50px"}}
+```
+
+#### `images`
+
+An array of images urls
+
+#### `height`
+
+Height of slider box. Default: `200px`
+
+#### `pagerFromBottom`
+
+Height of pager from the bottom of the slider box. Default: `30px`
+
+#### `pager`
+
+Should show pager controls or not. Default: `true`
+
+#### `controls`
+
+Should show control arrows or not. Default: `false`
+
+#### `isInfinite`
+
+Loop over images or not. Default: `true`
+
 
 ## Installation
 

@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-slippry/components/slippry-image-slider';

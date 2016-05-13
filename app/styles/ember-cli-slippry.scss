@@ -1,0 +1,55 @@
+.sy-image-slider {
+
+  /* pager bubbles */
+  .pager {
+    overflow: hidden;
+    *zoom: 1;
+    display: block;
+    width: 100%;
+    //margin: 1em 0 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    z-index: 10000;
+
+    li {
+      display: inline-block;
+      width: 1.2em;
+      height: 1.2em;
+      margin: 0 1em 0 0;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+
+      &[class*="sy-active"]{
+        a{
+          background-color: #10100b;
+        }
+      }
+
+      a{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: #d1d1d1;
+        text-indent: -9999px;
+        -moz-background-size: 2em;
+        -o-background-size: 2em;
+        -webkit-background-size: 2em;
+        background-size: 2em;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+
+        &:link, &:visited{
+          opacity: 1.0;
+        }
+
+        &:hover, &:focus{
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
